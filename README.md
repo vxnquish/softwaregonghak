@@ -1,15 +1,15 @@
-## Software Engineering Team Project 
+# Software Engineering Team Project 
 
-1st Due: 3월 중순
+### 1st Due: 3월 중순
     >> GitHub 프로젝트 페이지를 만들고, e-class의 팀별 프로젝트 게시판에 공지
 
-Mid Due: 4월 말
+### Mid Due: 4월 말
     >> Java Swing으로 동작하는 버전 제출
         - 모든 소스코드와 데이터 파일
         - 동작하는 실행파일
         - 동작 동영상
 
-Final Due: 5월 말
+### Final Due: 5월 말
     >> UI를 교체했을 때 수정되어야 하는 부분들에 대한 설명 추가 및 두 개의 UI 동영상 추가
         - Swing, JavaFX, Eclipse SWT/Face 등 이용
     >> 모든 소스코드와 데이터 파일
@@ -20,14 +20,14 @@ Final Due: 5월 말
         - 테스트 레포트
         - GitHub 프로젝트 레포트
 
-Note: 프로젝트의 모든 활동(Source & Documents)은 GitHub를 이용하여 기록되어야 함
+### Note: 프로젝트의 모든 활동(Source & Documents)은 GitHub를 이용하여 기록되어야 함
 
-Presentation Day: 6월 초
+### Presentation Day: 6월 초
     >> 평가 대상: 프로그램 동작 여부, 프로젝트 문서, 발표 평가
 
 
 
-## 프로젝트 개요
+# 프로젝트 개요
 
 - 윷놀이 게임을 OOAD를 적용하여 소프트웨어로 개발한다.
 - 게임 시작 시 참여자의 명수(최소 2명, 최대 4명)와 게임 말 개수(최소 2개, 최대 5개)를 지정할 수 있다.

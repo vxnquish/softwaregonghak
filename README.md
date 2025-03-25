@@ -1,19 +1,51 @@
-## Getting Started
+## Software Engineering Team Project 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+1st Due: 3월 중순
+    >> GitHub 프로젝트 페이지를 만들고, e-class의 팀별 프로젝트 게시판에 공지
 
-## Folder Structure
+Mid Due: 4월 말
+    >> Java Swing으로 동작하는 버전 제출
+        - 모든 소스코드와 데이터 파일
+        - 동작하는 실행파일
+        - 동작 동영상
 
-The workspace contains two folders by default, where:
+Final Due: 5월 말
+    >> UI를 교체했을 때 수정되어야 하는 부분들에 대한 설명 추가 및 두 개의 UI 동영상 추가
+        - Swing, JavaFX, Eclipse SWT/Face 등 이용
+    >> 모든 소스코드와 데이터 파일
+    >> 프로젝트 문서
+        - 프로젝트 개요
+        - 유스케이스 모델
+        - 설계 및 구현 레포트
+        - 테스트 레포트
+        - GitHub 프로젝트 레포트
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Note: 프로젝트의 모든 활동(Source & Documents)은 GitHub를 이용하여 기록되어야 함
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Presentation Day: 6월 초
+    >> 평가 대상: 프로그램 동작 여부, 프로젝트 문서, 발표 평가
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-# softwaregonghak
+## 프로젝트 개요
+
+- 윷놀이 게임을 OOAD를 적용하여 소프트웨어로 개발한다.
+- 게임 시작 시 참여자의 명수(최소 2명, 최대 4명)와 게임 말 개수(최소 2개, 최대 5개)를 지정할 수 있다.
+- 표준 윷놀이 판은 image 참고
+- 각 참여자의 말의 현재 위치가 표시되어야 한다.
+- 각 턴의 진행을 위해 <랜덤 윷 던지기>, <지정 윷 던지기> 버튼이 표시된다.
+    - <지정윷던지기> 버튼을 누르면 빽도, 도, 개, 걸, 윷, 모 중선택한 결과로 진행된다. (테스트용)
+    - <지정윷던지기> 버튼을 누르면 빽도, 도, 개, 걸, 윷, 모 중선택한 결과로 진행된다. (테스트용)
+- 사용자는 윷던지기 결과를 적용할 게임말을 선택할 수 있으며, 그에 따라 진행이 자동으로 되어야 한다.
+- 게임말을 업는(grouping) 기능을 지원해야 한다.
+- 다른 사용자의 말을 잡는 기능을 지원해야 한다.
+- 게임말들이 출발에서 시작해서 먼저 모든 말을 내보내는 팀이 게임에 승리하며, 이때 어느팀이 승리했는지 표시한다.
+- 한 게임이 끝났을 때 게임 재시작 혹은 종료가 가능해야 한다.
+
+# 주요 사항
+- 본프로젝트를 수행하면서 수업시간에 다룬 OOAD 기법을 적극적으로 사용하며, 그 결과를 문서화해야 한다.
+- MVC 아키텍처 패턴을 사용하여 UI와 모델을 분리하여 구현해야 한다.
+- 두 개 이상의 UIToolKit을 이용해서 두 개 이상의 UI를 구현한다. 
+- 이때 UI를 제외한 나머지 코드들이 거의 수정없이 재사용되는 것을 보여야 한다.
+- 테스트 용이한 설계를 하여 JUnit으로 모델 테스트를 수행한다.
+- 윷놀이판을 커스터마이즈 할 수 있어야 한다(오각형, 육각형 등)
